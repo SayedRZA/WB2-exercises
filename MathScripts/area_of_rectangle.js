@@ -1,10 +1,10 @@
-function calculateTriangleArea(base, height) {
-    return (1/2) * base * height;
+function calculateRectangleArea(length, width) {
+    return length * width;
   }
   
   // Example usage:
-  const base = 9;
-  const height = 6;
-  const area = calculateTriangleArea(base, height);
+  const length = 8;
+  const width = 3;
+  const area = calculateRectangleArea(length, width);
   
-  console.log(`The area of the triangle is: ${area}`);
+  console.log(`The area of the rectangle is: ${area}`);
