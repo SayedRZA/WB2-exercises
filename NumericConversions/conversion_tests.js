@@ -12,6 +12,6 @@ var d = "Number 5";
 var a = "101.1";
 var intValue = parseInt(a);
 
-console.log(intValue); // Output: 101
+console.log(intValue); // Answer: 101
 
 
